@@ -1,0 +1,101 @@
+
+body{
+  background-color: antiquewhite;
+}
+
+.style{
+  background-color: black;
+  height:70px;
+}
+.align{
+  text-align: center;
+  color: antiquewhite;
+  margin-top:10px;
+}
+
+button{
+  width:70%;
+  background-color:aquamarine;
+  
+}
+form {
+    margin-top: 100px;
+    margin-left: 40px
+  }
+  .input-field {
+    position: relative;
+    width: 250px;
+    height: 44px;
+    line-height: 44px;
+    background-color: red;
+
+
+
+  }
+  #label1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: black;
+
+    transition: 0.2s all;
+    cursor: text;
+    background-color: aquamarine;
+    
+  }
+  #name {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    border-bottom: 2px solid black;
+    box-shadow: none;
+    color:red;
+    background-color:aquamarine;
+
+
+  }
+  #name:invalid {
+    outline: 0;
+   
+  }
+  #name:focus,
+  #name:valid {
+    border-color: black;
+  }
+  #name:focus~#label1,
+  #name:valid~#label1 {
+    font-size: 20px;
+    font-weight: bold;
+    top: -24px;
+    color: red;
+  }
+  #head,#dp{
+    font-family: 'Lobster', cursive;
+text-shadow:  5px 5px 1px gray, 3px 3px 4px black,10px 10px 10px grey;
+}
+.bd{
+    border:5px solid;
+    padding:  45px 10px 45px 10px;
+font-size: 40px;
+    border-radius: 50px;
+    
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+text-shadow:  5px 5px 1px gray, 3px 3px 4px black,10px 10px 10px grey;
+}
+#question,
+label {
+    font-size: 20px;
+    width: 100%;
+    height: 40px;
+
+
+}
+
+label:hover {
+    background-color: #138D75;
+    color: white;
+
+}
